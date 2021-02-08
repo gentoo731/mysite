@@ -1,0 +1,500 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif
+    ;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+header{
+    margin: auto;
+    height: 200px;
+    
+}
+
+.header-in{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+header h1{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 26.6px;
+    margin-top: 70px;
+}
+
+header h1 a{
+    color: rgb(51, 51, 51);
+}
+
+.header-right ul{
+    display: flex;
+    color: rgb(51, 51, 51);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.header-right li{
+    color: rgb(51, 51, 51);
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.header-right li a{
+    color: rgb(51, 51, 51);
+}
+
+.Main1{
+    display: block;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.6px;
+    text-align: center;
+    height: 600px;
+    background-image: url('./MIZ19819002_TP_V4.jpg');
+    background-size: cover;
+    background-position: 0% 80%;
+}
+
+.MainAbout{
+    color: rgb(51, 51, 51);
+    margin-top: 100px;
+}
+
+
+
+.MainAbout h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.MainAbout-con{
+    color: rgb(51, 51, 51);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #cccccc;
+}
+
+.MainAbout-text1{
+    color: rgb(51, 51, 51)    ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.MainAbout-img{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainAbout-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0px;
+    padding-left: 10px;
+}
+
+.Name h3{
+    font-size: 35px;
+}
+
+.Name p{
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.Age h3{
+    font-size: 35px;
+}
+
+.Age p{
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.Address h3{
+    font-size: 35px;
+}
+
+.Address p{
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.More a{
+    color: #706e6e;
+}
+
+.More a:hover{
+    color: #000;
+}
+
+.MainWorks{
+    color: rgb(51, 51, 51);
+    margin-top: 100px;
+}
+
+.MainWorks h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.MainWorks-con{
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #cccccc;
+}
+
+.MainWorks-con a{
+    display: block;
+}
+
+.MainWorks-con a:hover{
+    display: block;
+    background-color: #acacac;
+    text-decoration: none;
+}
+
+
+.MainWorksWeb{
+    width: 50%;
+    display: block;
+    padding: 30px;
+}
+
+.MainWorksWeb h3{
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+
+.WebDesign{
+    margin: 30px 30px 0px 30px;
+}
+
+.WebDesign li{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #706e6e;
+}
+
+.WebDesign a{
+    display: inline;
+    color: #706e6e;
+}
+
+.WebDesign a:hover{
+    display: inline;
+    background-color: #acacac;
+}
+
+.MainWorksMovie{
+    width: 50%;
+    display: block;
+    padding: 30px;
+}
+
+.MainWorksMovie h3{
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+
+.MainWorksWeb-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MainWorksMovie-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MovieDesign{
+    margin: 30px 30px 0px 30px;
+}
+
+.MovieDesign li{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #706e6e;
+}
+
+.MovieDesign a{
+    display: inline;
+    color: #706e6e;
+}
+
+.MovieDesign a:hover{
+    display: inline;
+    background-color: #acacac;
+}
+
+.MainHobby{
+    color: rgb(51, 51, 51);
+    margin-top: 100px;
+}
+
+.MainHobby h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.MainHobby-con{
+    color: rgb(51, 51, 51);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #cccccc;
+}
+
+.MainHobbySoccer{
+    width: 33%;
+    display: block;
+    padding: 30px;
+}
+
+.MainHobbyCar{
+    width: 33%;
+    display: block;
+    padding: 30px;
+}
+
+.MainHobbyYouTube{
+    width: 33%;
+    display: block;
+    padding: 30px;
+}
+
+.MainHobby-con a{
+    display: block;
+}
+
+.MainHobby-con a:hover{
+    display: block;
+    background-color: #acacac;
+    text-decoration: none;
+}
+
+.MainHobby-con h3{
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+
+.MainHobbySoccer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MainHobbyCar-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MainHobbyYouTube-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer{
+    height: 200px;
+    background-image: url('./1411996.png');
+    background-size: cover;
+    background-position: 0% 100%;
+    margin-top: 200px;
+}
+
+.foot-con{
+    text-align: right;
+}
+
+.footList{
+    display: inline-block;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.footList ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+.footList li{
+    color: rgb(51, 51, 51);
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.footList a{
+    color: rgb(51, 51, 51);
+}
